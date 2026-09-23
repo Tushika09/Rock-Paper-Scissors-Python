@@ -72,7 +72,7 @@ def update_score(user_input) :
 
 
 valid_entries = ['0', '1', '2']
-
+# Main loop
 while True:
   user_input = input("enter 0 for rock, 1 for paper and 2 for scissors")
   if user_input not in valid_entries :
